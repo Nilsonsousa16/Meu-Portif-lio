@@ -131,8 +131,8 @@ li a:hover {
 }
 
 .div-inicio {
+    max-width: 700px;
     margin-left: 100px;
-    margin-right: 680px;
 }
 
 .div-inicio h2{
@@ -178,3 +178,54 @@ li a:hover {
 }
 
 /* --- RESPONSIVIDADE --- */
+
+@media only screen and (max-width: 835px) {
+    .div-inicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: none;
+        margin-left: auto;
+        margin: 40px;
+    }
+
+    .div-inicio h2 {
+        font-size: 40px;
+    }
+
+    .div-inicio p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .gt {
+        max-width: 90px;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+}
+    @media only screen and (max-width: 460px){
+        .div-inicio {
+            margin: 0px 20px
+        }
+
+        .div-inicio h6 {
+            font-size: 10px;
+        }
+
+        .div-inicio h2 {
+            font-size: 30px;
+        }
+
+        .div-inicio p {
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .gt {
+            font-size: 15px;
+            padding: 5px 15px;
+            max-width: 80px;
+        }
+}
