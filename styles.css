@@ -21,11 +21,13 @@ ul {
     align-items: center;
 }
 
-h1 {
+nav h2 {
     color: #ffffff;
     margin-left: 20px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 40px;
+    margin-top: 10px;
 }
 
 li {
@@ -66,10 +68,54 @@ li a:hover {
     box-shadow: 1px 10px 40px;
 }
 
-.menubtn, .menuclosebtn {
-    font-size: 40px;
+.mobile-menu {
+    display: none;
+}
+
+.menubtn {
     display: none;
 }
 
 /* -- RESPONSIVIDADE -- */
 
+@media only screen and (max-width: 800px) {
+    #menu {
+     display: none;
+    }
+
+   .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #2acc56;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: solid 2px #151515;
+   }
+
+   ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 15px;
+   }
+
+   .menubtn {
+    display: block;
+    padding-right: 20px;
+    color: #ffffff;
+    font-size: 40px;
+   }
+
+   nav h2 {
+    margin-top: 10px;
+   }
+
+   .open {
+    display: block;
+   }
+
+   li a {
+    font-size: 20px;
+   }
+
+}
