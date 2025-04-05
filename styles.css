@@ -235,3 +235,50 @@ li a:hover {
             max-width: 80px;
         }
 }
+
+/* --- CONHEÇA --- */
+
+#conheça {
+    height: 92vh;
+    padding-top: 8vh;
+}
+
+.div-conheça {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 80px;
+    gap: 80px;
+}
+
+.div-img-conheça {
+    width: 30%;
+    height: 92vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.img-conheça {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.div-info-conheça {
+    width: 70%;
+    color: #ffffff;
+}
+
+.div-info-conheça span {
+    color: #2acc56;
+}
+
+.div-info-conheça h2 {
+    font-size: 50px;
+}
+
+.div-info-conheça p {
+    text-align: justify;
+}
+
+/* --- RESPONSIVIDADE --- */
