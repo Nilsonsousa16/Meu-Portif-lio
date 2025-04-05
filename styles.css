@@ -6,6 +6,11 @@ body {
 
 /* -- NAVEGAÇÃO */
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 nav {
     background-color: #2acc56;
     height: 9vh;
@@ -124,10 +129,11 @@ li a:hover {
 
 #inicio {
     background: url(./assets/image/img-fundo-inicio.jpg) no-repeat center  center;
-    height: 91vh;
+    height: 100vh;
     display: flex;
     justify-content: start;
     align-items: center;
+    padding-top: 9vh;
 }
 
 .div-inicio {
