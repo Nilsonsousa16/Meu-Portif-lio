@@ -356,3 +356,71 @@ li a:hover {
     }
         
 }
+
+/* --- TECNOLOGIAS --- */
+
+#tecnologias {
+    height: 100vh;
+    margin: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-pai-tecnologias {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-h62 h2{
+
+    font-size: 40px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 8vh;
+    display: flex;
+}
+
+
+.div1-tecnologias {
+    display: flex;
+    color: #ffffff;
+    gap: 20px;
+}
+
+.div2-tecnologias {
+    display: flex;
+    color: #ffffff;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.div-card {
+    border: 2px solid #2acc56;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+.div-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px;
+    color: #2acc56;
+    transition: 0.5s all;
+}
+
+i {
+    color: #2acc56;
+    font-size: 50px;
+}
+
+.div-card p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    color: #b8b6b6;
+    font-size: 13px;
+}
+
+/* --- RESPONSIVIDADE --- */
