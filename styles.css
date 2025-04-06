@@ -282,3 +282,77 @@ li a:hover {
 }
 
 /* --- RESPONSIVIDADE --- */
+
+@media only screen and (max-width: 1250px) {
+    
+    .div-img-conheça {
+        width: 40%;
+        height: 92vh;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .div-info-conheça {
+        width: 60%;
+        color: #ffffff;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .div-img-conheça {
+        display: none;
+    }
+
+    .div-info-conheça {
+        width: 100%;
+        color: #ffffff;
+    }
+    
+    .div-conheça {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 110px 30px;
+        gap: 0px;
+    }
+
+    .div-conheça h2 {
+        font-size: 40px;
+    }
+
+    .div-conheça p {
+        font-size: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .div-info-conheça {
+        width: 100%;
+        color: #ffffff;
+    }
+    
+    .div-conheça {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 30px;
+        gap: 0px;
+    }
+
+    .div-conheça h2 {
+        font-size: 40px;
+    }
+
+    .div-conheça p {
+        font-size: 15px;
+    }
+    
+    #conheça {
+        height: 92vh;
+        padding-top: 8vh;
+    }
+        
+}
