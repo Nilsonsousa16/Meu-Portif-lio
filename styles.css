@@ -526,7 +526,7 @@ i {
 /* --- PROJETOS --- */
 
 #projetos {
-    height: 150vh;
+    height: 240vh;
     margin: 0px 80px;
 }
 
@@ -711,4 +711,60 @@ aside p {
         font-size: 10px;
         margin: 8px 6px;
     }
+}
+
+/* --- CONTATO-FOOTER --- */
+.div-pai-footer {
+    background-color: #2acc56;
+    padding: 30px;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.div-footer i {
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 2px #ffffff;
+    background-color: #2acc56;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.div-footer i:hover{
+    border: solid 2px #2acc56;
+    background-color: #ffffff;
+    color: #2acc56;
+    transition: 0.3s all;
+}
+
+/* #iconb {
+    padding: 9px;
+    font-size: 23px;
+} */
+
+.div-footer a {
+    text-decoration: none;
+}
+
+.div-footer h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div-pai-footer h6 {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.div-footer span {
+    font-size: 15px;
+    margin-left: px;
 }
