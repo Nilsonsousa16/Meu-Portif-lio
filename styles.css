@@ -540,7 +540,7 @@ i {
 .div-projetos {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
+    width: 80%;
 }
 
 .div-pai-projetos {
@@ -549,7 +549,7 @@ i {
 }
 
 .div-info-projetos {
-    width: 40%;
+    width: 20%;
 }
 
 .projeto {
@@ -618,4 +618,97 @@ aside p {
     text-align: justify;
     font-size: 12px;
     margin: 10px;
+}
+
+/* --- RESPONSIVIDADE ---  */
+
+@media only screen and (max-width: 1300px) {
+    #projetos {
+        height: 150vh;
+        margin: 0px 30px;
+    }
+
+    aside h5 {
+        font-size: 15px;
+    }
+    
+    aside p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    #projetos {
+        height: 120vh;
+    }
+    
+    aside h5 {
+        font-size: 13px;
+    }
+    
+    aside p {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .div-info-projetos {
+        display: none;
+    }
+
+    .div-projetos {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .projeto h2 {
+        font-size: 20px;
+    }
+    
+    .projeto p {
+        font-size: 15px;
+    }
+
+    .projeto a {
+        margin: 15px 15px;
+        width: 70px;
+        font-size: 15px;
+    }
+
+    .projeto a {
+        width: none;
+        padding: 3px 3px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #projetos {
+        height: 100vh;
+    }
+
+    .titulo-projetos {
+        font-size: 30px;
+    }
+
+    .projeto h2 {
+        font-size: 15px;
+    }
+    
+    .projeto p {
+        font-size: 13px;
+    }
+
+    .projeto {
+        margin: 10px;
+    }
+
+    .projeto a {
+        width: none !important;
+        padding: 3px 3px;
+        font-size: 10px;
+        margin: 8px 6px;
+    }
 }
