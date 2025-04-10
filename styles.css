@@ -526,7 +526,6 @@ i {
 /* --- PROJETOS --- */
 
 #projetos {
-    height: 240vh;
     margin: 0px 80px;
 }
 
@@ -624,7 +623,6 @@ aside p {
 
 @media only screen and (max-width: 1300px) {
     #projetos {
-        height: 150vh;
         margin: 0px 30px;
     }
 
@@ -638,9 +636,6 @@ aside p {
 }
 
 @media only screen and (max-width: 1130px) {
-    #projetos {
-        height: 120vh;
-    }
     
     aside h5 {
         font-size: 13px;
@@ -685,9 +680,6 @@ aside p {
 }
 
 @media only screen and (max-width: 500px) {
-    #projetos {
-        height: 100vh;
-    }
 
     .titulo-projetos {
         font-size: 30px;
@@ -713,7 +705,12 @@ aside p {
     }
 }
 
-/* --- CONTATO-FOOTER --- */
+/* --- CONTATO ---*/
+
+
+
+
+/*--- FOOTER --- */
 .div-pai-footer {
     background-color: #2acc56;
     padding: 30px;
@@ -742,11 +739,6 @@ aside p {
     color: #2acc56;
     transition: 0.3s all;
 }
-
-/* #iconb {
-    padding: 9px;
-    font-size: 23px;
-} */
 
 .div-footer a {
     text-decoration: none;
