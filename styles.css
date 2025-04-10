@@ -756,7 +756,50 @@ aside p {
     font-size: 17px;
 }
 
-.div-footer span {
-    font-size: 15px;
-    margin-left: px;
+/* --- RESPONSIVIDADE --- */
+
+@media only screen and (max-width: 800px) {
+    .div-pai-footer {
+        padding: 15px;
+    }
+    
+    .div-footer {
+        padding: 13px 0px;
+    }
+    
+    .div-footer i {
+        padding: 8px;
+        font-size: 15px;
+    }  
+    
+    .div-footer h2 {
+        font-size: 30px;
+    }
+    
+    .div-pai-footer h6 {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .div-pai-footer {
+        padding: 10px;
+    }
+    
+    .div-footer {
+        padding: 10px 0px;
+    }
+    
+    .div-footer i {
+        padding: 5px;
+        font-size: 10px;
+    }  
+    
+    .div-footer h2 {
+        font-size: 25px;
+    }
+    
+    .div-pai-footer h6 {
+        font-size: 10px;
+    }
 }
