@@ -196,7 +196,7 @@ li a:hover {
         margin: 40px;
     }
 
-    .div-inicio h2 {
+    .div-inicio h1 {
         font-size: 40px;
     }
 
@@ -221,7 +221,7 @@ li a:hover {
             font-size: 10px;
         }
 
-        .div-inicio h2 {
+        .div-inicio h1 {
             font-size: 30px;
         }
 
@@ -801,6 +801,59 @@ form {
     font-size: 15px;
     align-self: center;
 }
+
+/* --- RESPONSIVIDADE ---  */
+@media only screen and (max-width: 1000px) {
+    #contato {
+        padding: 8vh 0vh;
+        margin: 0px 30px;
+    }   
+    
+    form { 
+        width: 100%;
+    }
+    
+    .div-form input{
+        background: transparent;
+        border: none;
+        border: 5px solid #2acc56;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+        color: #ffffff;
+        outline-color: #ffffff;
+    }
+    
+    .div-form textarea {
+        background: transparent;
+        border: none;
+        border: 5px solid #2acc56;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 10px;
+        color: #ffffff;
+        resize: none;
+        max-height: 200px;
+        outline-color: #ffffff;
+    }
+    
+    .div-info-contato {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #contato h2 {
+        font-size: 40px;
+    }
+
+    .div-form button {
+        font-size: 15px;
+    }
+}
+
+
 
 /*--- FOOTER --- */
 .div-pai-footer {
