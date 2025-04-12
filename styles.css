@@ -9,6 +9,7 @@ body {
 header {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 nav {
@@ -141,7 +142,7 @@ li a:hover {
     margin-left: 100px;
 }
 
-.div-inicio h2{
+.div-inicio h1{
     color: #2acc56;
     text-transform: uppercase;
     font-size: 60px;
@@ -607,6 +608,7 @@ aside {
     margin: 0px 20px;
     position: sticky;
     top: 12vh;
+    z-index: 1;
 }
 
 aside h5 {
@@ -706,9 +708,99 @@ aside p {
 }
 
 /* --- CONTATO ---*/
+#contato {
+    padding: 8vh 0vh;
+    margin: 0px 80px;
+}
 
+#contato h2 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4vh;
+}
 
+.div-pai-contato {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
 
+form { 
+    width: 80%;
+}
+
+.div-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div-form label {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.div-form input{
+    background: transparent;
+    border: none;
+    border: 5px solid #2acc56;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    outline-color: #ffffff;
+}
+
+.div-form textarea {
+    background: transparent;
+    border: none;
+    border: 5px solid #2acc56;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    color: #ffffff;
+    resize: none;
+    max-height: 200px;
+    outline-color: #ffffff;
+}
+
+.div-form input::placeholder, textarea::placeholder {
+    color: #2acc56;
+    
+}
+
+.div-form button {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #2acc56;
+    border: solid 2px #2acc56;
+    border-radius: 8px;
+    margin: 15px 0px;
+    width: 100%;
+}
+
+.div-form button:hover {
+    background-color: #ffffff;
+    color: #2acc56;
+    transition: 0.3s all;
+}
+
+.div-info-contato {
+    width: 20%;
+}
+
+.div-info-contato div {
+    color: #ffffff;
+    border: solid 2px #2acc56;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 15px;
+    align-self: center;
+}
 
 /*--- FOOTER --- */
 .div-pai-footer {
