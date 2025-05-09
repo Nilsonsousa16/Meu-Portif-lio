@@ -2,6 +2,9 @@
 
 ## Olá, bem vindo ao meu portifólio! 👋
 
+### Sobre este Portfólio 🚀
+Este é o meu portfólio online, construído com o objetivo de apresentar minhas habilidades e projetos no mundo do desenvolvimento de software. Aqui você poderá conhecer um pouco sobre minha trajetória como estudante de programação, as tecnologias com as quais tenho experiência e os projetos que tenho desenvolvido para aplicar e aprimorar meus conhecimentos. Explore as seções para saber mais sobre mim e o meu trabalho!
+
 ![Imagem do inicio do site.](./assets/image/inicio.png)
 
 Sou Josenilson, um estudante de programação de 17 anos em busca de oportunidades para aplicar e aprimorar minhas habilidades no dinâmico mundo do desenvolvimento de software. A paixão por transformar ideias em softwares funcionais me impulsiona, e a lógica da programação, juntamente com o impacto positivo da tecnologia, me fascinam profundamente.
